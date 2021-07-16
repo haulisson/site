@@ -66,6 +66,13 @@
                                     <pre><code>Your block of code here.</code></pre>
                                 </code>
                             </pre>
+
+                            <p>This is the <code>Panel</code> constructor:</p>
+                                <pre><code>function Panel(element, canClose, closeHandler) {
+                                        this.element = element;
+                                        this.canClose = canClose;
+                                        this.closeHandler = function () { if (closeHandler) closeHandler() };
+                                }</code></pre>
 						</article>
 
 					<!-- Post -->
